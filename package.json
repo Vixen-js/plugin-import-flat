@@ -1,0 +1,45 @@
+{
+  "name": "@vixen-js/plugin-import-flat",
+  "version": "0.1.0",
+  "description": "Esbuild plugin to import files as text plain",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "esbuild",
+    "css-loader",
+    "plain-text",
+    "esbuild-plugin",
+    "plugin",
+    "import",
+    "flat"
+  ],
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json"
+  ],
+  "author": "Seobryn <ing.jose.joya@gmail.com>",
+  "license": "AGPL-3.0-only",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.8.6",
+    "esbuild": "^0.24.0",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.11.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.12.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
